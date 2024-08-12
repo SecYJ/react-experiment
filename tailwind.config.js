@@ -6,7 +6,18 @@ export default {
 			center: true,
 			padding: "1rem",
 		},
-		extend: {},
+		extend: {
+			colors: {
+				primary: {
+					light: "#1971c2",
+					dark: "#1864AB",
+				},
+			},
+		},
 	},
 	plugins: [],
 };
+
+/*
+- add css variables on button => through .btn class
+*/

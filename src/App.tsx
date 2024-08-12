@@ -11,8 +11,13 @@ import Products from "./pages/handleWithBreadcrumb/Products";
 import HandleLayout from "./pages/handleWithBreadcrumb/HandleLayout";
 import ProductItem, { loader } from "./pages/handleWithBreadcrumb/ProductItem";
 import { Match } from "./pages/handleWithBreadcrumb/BreadCrumb";
+import ButtonPage from "./pages/button/ButtonPage";
 
 const router = createBrowserRouter([
+	{
+		path: "/buttonPage",
+		element: <ButtonPage />,
+	},
 	{
 		path: "/mutation-network-mode",
 		element: <MutationNetworkMode />,
